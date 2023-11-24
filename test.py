@@ -1,11 +1,11 @@
-
-    
 class Student:
     def _init_(self, stu_name , stu_id):
         self.stu_name = stu_name
         self.stu_id = stu_id
-
     
+    def _stf_(self):
+       return f"Name:{self.stu_name}\nId={self.stu_id}"
+    def addCourse(self , object)
 
 class Person:
     def _init_(self, name, age):
